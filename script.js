@@ -53,7 +53,7 @@ btnHold.addEventListener('click',()=>{
   if(gamestatus)
   { 
    scoreboard[active_Player] += totalvalue;
-   if(scoreboard[active_Player]>20)
+   if(scoreboard[active_Player]>50)
    {
     document.querySelector(`.player--${active_Player}`).classList.add("player--winner");
     gamestatus=false;
